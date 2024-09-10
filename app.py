@@ -19,7 +19,7 @@ if hist_button: # al hacer clic en el botón
     
 if scatter_button:
     st.header('Diagrama de dispersion principal', divider='red')        # escribir un mensaje
-    st.write('Creación de unDiagrama de dispersion para el conjunto de datos de anuncios de venta de coches')
+    st.write('Creación de un Diagrama de dispersion para el conjunto de datos de anuncios de venta de coches')
             
             # crear un histograma
     fig1 = px.scatter(car_data, x="odometer")
